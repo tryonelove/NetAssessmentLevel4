@@ -1,8 +1,8 @@
 ﻿using NetAssessmentLevel4;
 
-// ManualResetEventDemo.Start();
-AutoResetEventDemo.Start();
+ManualResetEventDemo.Start();
+// AutoResetEventDemo.Start();
 
 // ReaderWriterLockMicrosoftTest.Start();
 
-// await CancelTasks.Start();
+// await CancelTasksDemo.Start();
