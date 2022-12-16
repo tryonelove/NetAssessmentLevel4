@@ -3,7 +3,7 @@
 public class Shop
 {
     private readonly int _beerCount;
-    
+
 
     public Shop()
     {

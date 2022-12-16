@@ -1,4 +1,4 @@
-﻿namespace Reflection;
+﻿namespace Reflection.Assembly;
 
 public enum Sorting
 {

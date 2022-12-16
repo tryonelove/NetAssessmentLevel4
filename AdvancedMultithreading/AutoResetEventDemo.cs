@@ -13,7 +13,7 @@ public static class AutoResetEventDemo
             
         for (var i = 1; i < 4; i++)
         {
-            var t = new Thread(SolvePatientProblem)
+            var t = new Thread(ProcessVisitor)
             {
                 Name = "Visitor " + i
             };
@@ -32,7 +32,7 @@ public static class AutoResetEventDemo
         }
     }
 
-    private static void SolvePatientProblem()
+    private static void ProcessVisitor()
     {
         var name = Thread.CurrentThread.Name;
 

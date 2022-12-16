@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using Reflection;
+using Reflection.Assembly;
 
 var values = new[] { 1, 2, 3, 4 };
 

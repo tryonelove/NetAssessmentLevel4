@@ -37,7 +37,7 @@ public static class ManualResetEventDemo
         }
 
         Thread.Sleep(500);
-        
+
         Console.WriteLine("Can I have two number 9s?");
         Mre.Reset();
 
